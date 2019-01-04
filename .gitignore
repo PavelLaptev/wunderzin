@@ -1,0 +1,9 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# node modules
+node_modules
+/node_modules
+style-dictionary/node_modules

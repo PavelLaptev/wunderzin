@@ -1,0 +1,14 @@
+{
+    "name": "style-dictionary",
+    "version": "1.0.0",
+    "main": "build.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node ./build.js"
+    },
+    "author": "Pavel Laptev",
+    "license": "MIT",
+    "devDependencies": {
+        "style-dictionary": "^2.6.2"
+    }
+}

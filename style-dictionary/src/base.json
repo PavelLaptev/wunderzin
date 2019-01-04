@@ -1,0 +1,428 @@
+{
+    "token": {
+        "grids": {
+            "desktop": {
+                "count": {
+                    "value": 12,
+                    "type": "grids"
+                },
+                "gutter": {
+                    "value": "40px",
+                    "type": "grids"
+                },
+                "offset": {
+                    "value": "100px",
+                    "type": "grids"
+                }
+            },
+            "tablet": {
+                "count": {
+                    "value": 12,
+                    "type": "grids"
+                },
+                "gutter": {
+                    "value": "40px",
+                    "type": "grids"
+                },
+                "offset": {
+                    "value": "60px",
+                    "type": "grids"
+                }
+            },
+            "mobile": {
+                "count": {
+                    "value": 4,
+                    "type": "grids"
+                },
+                "gutter": {
+                    "value": "20px",
+                    "type": "grids"
+                },
+                "offset": {
+                    "value": "20px",
+                    "type": "grids"
+                }
+            }
+        },
+        "spacers": {
+            "M": {
+                "value": "8px",
+                "type": "spacers"
+            },
+            "S": {
+                "value": "4px",
+                "type": "spacers"
+            },
+            "L": {
+                "value": "16px",
+                "type": "spacers"
+            },
+            "XL": {
+                "value": "24px",
+                "type": "spacers"
+            },
+            "XXL": {
+                "value": "32px",
+                "type": "spacers"
+            }
+        },
+        "colors": {
+            "lemo": {
+                "value": "rgba(252, 255, 234, 1)",
+                "type": "color"
+            },
+            "blank": {
+                "value": "rgba(255, 255, 255, 1)",
+                "type": "color"
+            },
+            "medium-lemo": {
+                "value": "rgba(237, 239, 222, 1)",
+                "type": "color"
+            },
+            "dark-lemo": {
+                "value": "rgba(141, 141, 136, 1)",
+                "type": "color"
+            },
+            "limo": {
+                "value": "rgba(238, 255, 137, 1)",
+                "type": "color"
+            },
+            "coral": {
+                "value": "rgba(255, 137, 137, 1)",
+                "type": "color"
+            },
+            "plastic-grass": {
+                "value": "rgba(74, 222, 168, 1)",
+                "type": "color"
+            },
+            "supernova": {
+                "value": "rgba(128, 91, 232, 1)",
+                "type": "color"
+            },
+            "puma": {
+                "value": "rgba(49, 49, 49, 1)",
+                "type": "color"
+            }
+        },
+        "fonts": {
+            "link": {
+                "family": {
+                    "value": "Arimo, Arimo-Regular",
+                    "type": "typography"
+                },
+                "size": {
+                    "value": 16,
+                    "type": "typography"
+                },
+                "weight": {
+                    "value": 400,
+                    "type": "typography"
+                },
+                "lineheight": {
+                    "value": "150%",
+                    "type": "typography"
+                }
+            },
+            "caption": {
+                "large": {
+                    "family": {
+                        "value": "Arimo",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 16,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 400,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "140%",
+                        "type": "typography"
+                    }
+                },
+                "medium": {
+                    "family": {
+                        "value": "Arimo",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 12,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 400,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "140%",
+                        "type": "typography"
+                    }
+                },
+                "small": {
+                    "family": {
+                        "value": "Arimo",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 12,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 400,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "120%",
+                        "type": "typography"
+                    }
+                }
+            },
+            "h1": {
+                "desktop": {
+                    "family": {
+                        "value": "Zilla Slab",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 66,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 700,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "90%",
+                        "type": "typography"
+                    }
+                },
+                "tablet": {
+                    "family": {
+                        "value": "Zilla Slab",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 56,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 700,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "90%",
+                        "type": "typography"
+                    }
+                },
+                "mobile": {
+                    "family": {
+                        "value": "Zilla Slab",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 40,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 700,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "90%",
+                        "type": "typography"
+                    }
+                }
+            },
+            "h2": {
+                "mobile": {
+                    "family": {
+                        "value": "Zilla Slab",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 32,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 700,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "90%",
+                        "type": "typography"
+                    }
+                },
+                "desktop": {
+                    "family": {
+                        "value": "Zilla Slab",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 46,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 700,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "90%",
+                        "type": "typography"
+                    }
+                },
+                "tablet": {
+                    "family": {
+                        "value": "Zilla Slab",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 40,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 700,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "90%",
+                        "type": "typography"
+                    }
+                }
+            },
+            "h3": {
+                "mobile": {
+                    "family": {
+                        "value": "Zilla Slab",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 28,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 700,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "90%",
+                        "type": "typography"
+                    }
+                },
+                "desktop": {
+                    "family": {
+                        "value": "Zilla Slab",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 36,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 700,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "90%",
+                        "type": "typography"
+                    }
+                },
+                "tablet": {
+                    "family": {
+                        "value": "Zilla Slab",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 32,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 700,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "90%",
+                        "type": "typography"
+                    }
+                }
+            },
+            "h4": {
+                "desktop": {
+                    "family": {
+                        "value": "Arimo",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 24,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 700,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "120%",
+                        "type": "typography"
+                    }
+                },
+                "mobile": {
+                    "family": {
+                        "value": "Arimo",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 22,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 700,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "120%",
+                        "type": "typography"
+                    }
+                }
+            },
+            "content": {
+                "desktop": {
+                    "family": {
+                        "value": "Arimo",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 16,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 400,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "150%",
+                        "type": "typography"
+                    }
+                },
+                "mobile": {
+                    "family": {
+                        "value": "Arimo",
+                        "type": "typography"
+                    },
+                    "size": {
+                        "value": 17,
+                        "type": "typography"
+                    },
+                    "weight": {
+                        "value": 400,
+                        "type": "typography"
+                    },
+                    "lineheight": {
+                        "value": "150%",
+                        "type": "typography"
+                    }
+                }
+            }
+        }
+    }
+}
