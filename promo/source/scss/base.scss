@@ -1,0 +1,130 @@
+// tokens
+@import "tokens/_colors";
+@import "tokens/_grids";
+@import "tokens/_typography";
+
+* ::selection {
+    background: $token-colors-coral;
+}
+
+body {
+    background: $token-colors-limo;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    padding-left: 100px;
+}
+
+.cta-btn {
+    position: relative;
+    cursor: pointer;
+    padding: 0 20px;
+    min-width: 220px;
+    font-family: $token-fonts-content-desktop-family, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    height: 52px;
+    border-radius: 4px;
+    border: none;
+    transition: all 0.1s;
+    &_primary-dark {
+        padding: 0 20px;
+        background: $token-colors-supernova;
+        color: $token-colors-blank;
+        &:hover {
+            background: darken($token-colors-supernova, 10);
+        }
+        &:focus {
+            background: darken($token-colors-supernova, 10);
+        }
+    }
+}
+
+.content-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+    // width: 40%;
+    flex: 1 1 auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    &__wz-logo {
+        flex: 0 0 auto;
+        width: 296px;
+        height: 32px;
+        background-image: url(../images/wz-logo.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &__main-section {
+        margin-bottom: 40px;
+        &__header {
+            white-space: nowrap;
+        }
+    }
+}
+
+.figma-logo {
+    margin-top: 36px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/figma-logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.preview-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 2 auto;
+    overflow: hidden;
+    position: relative;
+    margin-left: 40px;
+    &__devices {
+        position: relative;
+        width: 1100px;
+        height: 700px;
+    }
+    &__iphone {
+        position: absolute;
+        top: 280px;
+        left: 0;
+        z-index: 3;
+        width: 230px;
+        height: 450px;
+        background-image: url(../images/iphone.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &__ipad {
+        position: absolute;
+        top: 340px;
+        left: calc(60px + 22vw);
+        z-index: 2;
+        width: 540px;
+        height: 750px;
+        background-image: url(../images/ipad.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &__macbook {
+        position: absolute;
+        top: 0;
+        left: 40px;
+        z-index: 1;
+        width: 1050px;
+        height: 640px;
+        background-image: url(../images/mackbook.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
