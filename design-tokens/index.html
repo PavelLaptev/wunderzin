@@ -3,13 +3,55 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Page Title</title>
+    <title>Wûnderzin Design Tokens</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="fav-ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav-ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav-ico/favicon-16x16.png">
+    <link rel="manifest" href="fav-ico/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:image" content="fav-ico/thumb.png">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="520">
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i|Zilla+Slab:700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tokens-page-style.css">
   </head>
   <body>
-    <p>  Hello world! This is Pug Boilerplate g</p>
-    <button id="get-json-btn">Get JSON</button>
+    <div class="wrapper">
+      <div class="tp-header"><a href="https://www.figma.com/file/JNIu97dR9CPt6kTg3grNFc7n/W%C3%BBnderzin-UI-Kit?node-id=0%3A1" target="_blank">
+          <div class="tp-header__wz-logo"></div></a></div>
+      <div class="tp-get-tokens-block">
+        <h1>Design Tokens</h1>
+        <button class="cta-btn cta-btn_primary-dark" id="get-json-btn"> 
+          <div class="btn-loading btn-loading-hide">
+            <div class="btn-loading__loader"></div>
+          </div><span>Generate Tokens</span>
+        </button>
+      </div>
+      <div class="tp-previews-block">
+        <div class="tp-previews-block__section">
+          <iframe src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJNIu97dR9CPt6kTg3grNFc7n%2FW%25C3%25BBnderzin-UI-Kit%3Fnode-id%3D181%253A0" allowfullscreen=""></iframe><span class="caption-medium">Grids</span>
+        </div>
+        <hr>
+        <div class="tp-previews-block__section">
+          <iframe src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJNIu97dR9CPt6kTg3grNFc7n%2FW%25C3%25BBnderzin-UI-Kit%3Fnode-id%3D45%253A117" allowfullscreen=""></iframe><span class="caption-medium">Spacers</span>
+        </div>
+        <hr>
+        <div class="tp-previews-block__section">
+          <iframe src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJNIu97dR9CPt6kTg3grNFc7n%2FW%25C3%25BBnderzin-UI-Kit%3Fnode-id%3D1%253A26" allowfullscreen=""></iframe><span class="caption-medium">Colors</span>
+        </div>
+        <hr>
+        <div class="tp-previews-block__section">
+          <iframe src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJNIu97dR9CPt6kTg3grNFc7n%2FW%25C3%25BBnderzin-UI-Kit%3Fnode-id%3D13%253A3" allowfullscreen="">  </iframe><span class="caption-medium">Typography</span>
+        </div>
+      </div>
+      <hr>
+      <div class="tp-footer"><span>☜  <a href="#">back to the article</a></span><a href="#">Github</a></div>
+    </div>
     <script src="scripts/main.js"></script>
   </body>
 </html>

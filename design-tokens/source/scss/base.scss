@@ -1,0 +1,50 @@
+// tokens
+@import "tokens/_colors";
+@import "tokens/_grids";
+@import "tokens/_typography";
+
+body {
+    background: $token-colors-lemo;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+    max-width: $token-grids-desktop-width;
+    padding: 0 $token-grids-desktop-offset;
+    @media screen and (max-width: $token-grids-tablet-width) {
+        padding: 0 $token-grids-tablet-offset;
+    }
+    @media screen and (max-width: $token-grids-mobile-width) {
+        padding: 0 $token-grids-mobile-offset;
+    }
+}
+
+.cta-btn {
+    position: relative;
+    cursor: pointer;
+    padding: 0 20px;
+    min-width: 220px;
+    font-family: $token-fonts-content-desktop-family, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    height: 52px;
+    border-radius: 4px;
+    border: none;
+    transition: all 0.1s;
+    &_primary-dark {
+        cursor: s-resize;
+        padding: 0 20px;
+        background: $token-colors-supernova;
+        color: $token-colors-blank;
+        &:hover {
+            background: darken($token-colors-supernova, 10);
+        }
+        &:focus {
+            background: darken($token-colors-supernova, 10);
+        }
+    }
+}

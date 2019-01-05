@@ -1,4 +1,5 @@
 const getJSONBtn = document.getElementById("get-json-btn");
+const loaderDiv = document.querySelector(".btn-loading");
 
 function download(content, fileName, contentType) {
     var a = document.createElement("a");
@@ -61,6 +62,10 @@ function getGrids(stylesArtboard) {
                 offset: {
                     value: `${item.layoutGrids[0].offset}px`,
                     type: "grids"
+                },
+                width: {
+                    value: `${item.absoluteBoundingBox.width}px`,
+                    type: "grids"
                 }
             }
         };
@@ -114,7 +119,7 @@ function getFontStyles(stylesArtboard) {
                             type: "typography"
                         },
                         size: {
-                            value: subFontItem.style.fontSize,
+                            value: `${subFontItem.style.fontSize}px`,
                             type: "typography"
                         },
                         weight: {
@@ -123,6 +128,13 @@ function getFontStyles(stylesArtboard) {
                         },
                         lineheight: {
                             value: `${subFontItem.style.lineHeightPercent}%`,
+                            type: "typography"
+                        },
+                        spacing: {
+                            value:
+                                subFontItem.style.letterSpacing !== 0
+                                    ? `${subFontItem.style.letterSpacing}px`
+                                    : "normal",
                             type: "typography"
                         }
                     }
@@ -156,6 +168,13 @@ function getFontStyles(stylesArtboard) {
                     },
                     lineheight: {
                         value: `${fontItem.style.lineHeightPercent}%`,
+                        type: "typography"
+                    },
+                    spacing: {
+                        value:
+                            fontItem.style.letterSpacing !== 0
+                                ? `${fontItem.style.letterSpacing}px`
+                                : "normal",
                         type: "typography"
                     }
                 }
@@ -196,6 +215,7 @@ async function getStylesArtboard(figmaApiKey, figmaId) {
     Object.assign(baseTokeensJSON.token.colors, getPalette(stylesArtboard));
     Object.assign(baseTokeensJSON.token.fonts, getFontStyles(stylesArtboard));
 
+    loaderDiv.classList.add("btn-loading-hide");
     download(
         JSON.stringify(baseTokeensJSON, null, 4),
         "base.json",
@@ -204,6 +224,7 @@ async function getStylesArtboard(figmaApiKey, figmaId) {
 }
 
 getJSONBtn.onclick = function() {
+    loaderDiv.classList.remove("btn-loading-hide");
     getStylesArtboard(
         "6378-8b5cb2d6-7689-4b50-a0c4-f326bc9fc9af",
         "JNIu97dR9CPt6kTg3grNFc7n"

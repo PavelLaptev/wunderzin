@@ -1,0 +1,111 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 04 Jan 2019 21:24:14 GMT
+ */
+.btn-loading-hide {
+  opacity: 0; }
+
+.btn-loading {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #805be8;
+  border-radius: 4px;
+  top: 0;
+  left: 0; }
+  .btn-loading__loader {
+    display: block;
+    position: absolute;
+    top: calc(50% - 14px);
+    left: calc(50% - 14px);
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+    background: white;
+    -webkit-animation: ld-flip 2s infinite;
+    animation: ld-flip 2s infinite;
+    -webkit-transform: scaleY(1) scaleX(1);
+    -ms-transform: scaleY(1) scaleX(1);
+    transform: scaleY(1) scaleX(1); }
+
+@-webkit-keyframes ld-flip {
+  0%,
+  25%,
+  50%,
+  75%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1); }
+  0%,
+  to {
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+    transform: rotateY(0deg) rotateX(0deg); }
+  25% {
+    -webkit-transform: rotateY(180deg) rotateX(0deg);
+    transform: rotateY(180deg) rotateX(0deg); }
+  50% {
+    -webkit-transform: rotateY(180deg) rotateX(180deg);
+    transform: rotateY(180deg) rotateX(180deg); }
+  75% {
+    -webkit-transform: rotateY(0deg) rotateX(180deg);
+    transform: rotateY(0deg) rotateX(180deg); } }
+
+@keyframes ld-flip {
+  0%,
+  25%,
+  50%,
+  75%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1); }
+  0%,
+  to {
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+    transform: rotateY(0deg) rotateX(0deg); }
+  25% {
+    -webkit-transform: rotateY(180deg) rotateX(0deg);
+    transform: rotateY(180deg) rotateX(0deg); }
+  50% {
+    -webkit-transform: rotateY(180deg) rotateX(180deg);
+    transform: rotateY(180deg) rotateX(180deg); }
+  75% {
+    -webkit-transform: rotateY(0deg) rotateX(180deg);
+    transform: rotateY(0deg) rotateX(180deg); } }
+
+.tp-header {
+  margin-top: 40px; }
+  .tp-header__wz-logo {
+    width: 200px;
+    height: 23px;
+    background-image: url(../images/wz-logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.tp-get-tokens-block {
+  margin: 40px 0 60px; }
+
+.tp-previews-block {
+  margin-top: 60px; }
+  .tp-previews-block__section {
+    width: 100%;
+    margin-bottom: 40px; }
+    .tp-previews-block__section span {
+      opacity: 0.8; }
+    .tp-previews-block__section iframe {
+      margin: 20px 0;
+      width: 100%;
+      height: 450px;
+      border: none;
+      background: rgba(0, 0, 0, 0.05); }
+
+.tp-footer {
+  margin: 40px 0 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .tp-footer span {
+    font-size: 18px; }

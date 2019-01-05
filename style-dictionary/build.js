@@ -6,28 +6,28 @@ const StyleDictionary = require("style-dictionary").extend({
             buildPath: "build/web/",
             files: [
                 {
-                    destination: "colors.scss",
+                    destination: "_colors.scss",
                     format: "scss/variables",
                     filter: {
                         type: "color"
                     }
                 },
                 {
-                    destination: "typography.scss",
+                    destination: "_typography.scss",
                     format: "scss/variables",
                     filter: {
                         type: "typography"
                     }
                 },
                 {
-                    destination: "grids.scss",
+                    destination: "_grids.scss",
                     format: "scss/variables",
                     filter: {
                         type: "grids"
                     }
                 },
                 {
-                    destination: "spacers.scss",
+                    destination: "_spacers.scss",
                     format: "scss/variables",
                     filter: {
                         type: "spacers"

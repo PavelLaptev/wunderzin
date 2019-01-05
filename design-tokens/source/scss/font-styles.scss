@@ -1,0 +1,68 @@
+// tokens
+@import "tokens/_colors";
+@import "tokens/_typography";
+
+h1 {
+    font-family: $token-fonts-h-1-desktop-family, serif;
+    font-size: $token-fonts-h-1-desktop-size;
+    line-height: $token-fonts-h-1-desktop-lineheight;
+    color: $token-colors-puma;
+    @media screen and (max-width: $token-grids-tablet-width) {
+        font-size: $token-fonts-h-1-tablet-size;
+        line-height: $token-fonts-h-1-tablet-lineheight;
+    }
+    @media screen and (max-width: $token-grids-mobile-width) {
+        font-size: $token-fonts-h-1-mobile-size;
+        line-height: $token-fonts-h-1-mobile-lineheight;
+    }
+}
+
+h2 {
+    font-family: $token-fonts-h-2-desktop-family, serif;
+    font-size: $token-fonts-h-2-desktop-size;
+    line-height: $token-fonts-h-2-desktop-lineheight;
+    color: $token-colors-puma;
+}
+
+h3 {
+    font-family: $token-fonts-h-3-desktop-family, serif;
+    font-size: $token-fonts-h-3-desktop-size;
+    line-height: $token-fonts-h-3-desktop-lineheight;
+    color: $token-colors-puma;
+}
+
+h4 {
+    font-family: $token-fonts-h-4-desktop-family, serif;
+    font-size: $token-fonts-h-4-desktop-size;
+    line-height: $token-fonts-h-4-desktop-lineheight;
+    color: $token-colors-puma;
+}
+
+a {
+    cursor: pointer;
+    font-family: $token-fonts-link-family, serif;
+    line-height: $token-fonts-link-lineheight;
+    color: $token-colors-coral;
+    transition: all 0.1s;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.caption-large {
+    font-family: $token-fonts-caption-large-family, serif;
+    font-size: $token-fonts-caption-large-size;
+    line-height: $token-fonts-caption-large-lineheight;
+    color: $token-colors-puma;
+    text-transform: uppercase;
+    letter-spacing: $token-fonts-caption-large-spacing;
+}
+
+.caption-medium {
+    font-family: $token-fonts-caption-medium-family, serif;
+    font-size: $token-fonts-caption-medium-size;
+    line-height: $token-fonts-caption-medium-lineheight;
+    color: $token-colors-puma;
+    text-transform: uppercase;
+    letter-spacing: $token-fonts-caption-medium-spacing;
+}

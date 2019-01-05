@@ -1,0 +1,99 @@
+@import "tokens/_colors";
+
+.btn-loading-hide {
+    opacity: 0;
+}
+
+.btn-loading {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: $token-colors-supernova;
+    border-radius: 4px;
+    top: 0;
+    left: 0;
+    &__loader {
+        display: block;
+        position: absolute;
+        top: calc(50% - 14px);
+        left: calc(50% - 14px);
+        width: 28px;
+        height: 28px;
+        border-radius: 20px;
+        background: $token-colors-blank;
+        animation: ld-flip 2s infinite;
+        transform: scaleY(1) scaleX(1);
+    }
+}
+
+@keyframes ld-flip {
+    0%,
+    25%,
+    50%,
+    75%,
+    to {
+        animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+    }
+
+    0%,
+    to {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+
+    25% {
+        transform: rotateY(180deg) rotateX(0deg);
+    }
+
+    50% {
+        transform: rotateY(180deg) rotateX(180deg);
+    }
+
+    75% {
+        transform: rotateY(0deg) rotateX(180deg);
+    }
+}
+
+.tp {
+    &-header {
+        margin-top: 40px;
+        &__wz-logo {
+            width: 200px;
+            height: 23px;
+            background-image: url(../images/wz-logo.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &-get-tokens-block {
+        margin: 40px 0 60px;
+    }
+
+    &-previews-block {
+        margin-top: 60px;
+        &__section {
+            width: 100%;
+            margin-bottom: 40px;
+            span {
+                opacity: 0.8;
+            }
+            iframe {
+                margin: 20px 0;
+                width: 100%;
+                height: 450px;
+                border: none;
+                background: rgba(0, 0, 0, 0.05);
+            }
+        }
+    }
+
+    &-footer {
+        margin: 40px 0 60px;
+        display: flex;
+        justify-content: space-between;
+        span {
+            font-size: 18px;
+        }
+    }
+}

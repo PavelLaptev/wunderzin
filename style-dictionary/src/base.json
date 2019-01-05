@@ -13,6 +13,10 @@
                 "offset": {
                     "value": "100px",
                     "type": "grids"
+                },
+                "width": {
+                    "value": "1600px",
+                    "type": "grids"
                 }
             },
             "tablet": {
@@ -27,6 +31,10 @@
                 "offset": {
                     "value": "60px",
                     "type": "grids"
+                },
+                "width": {
+                    "value": "1024px",
+                    "type": "grids"
                 }
             },
             "mobile": {
@@ -40,6 +48,10 @@
                 },
                 "offset": {
                     "value": "20px",
+                    "type": "grids"
+                },
+                "width": {
+                    "value": "375px",
                     "type": "grids"
                 }
             }
@@ -121,6 +133,10 @@
                 "lineheight": {
                     "value": "150%",
                     "type": "typography"
+                },
+                "spacing": {
+                    "value": "normal",
+                    "type": "typography"
                 }
             },
             "caption": {
@@ -130,7 +146,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 16,
+                        "value": "16px",
                         "type": "typography"
                     },
                     "weight": {
@@ -139,6 +155,10 @@
                     },
                     "lineheight": {
                         "value": "140%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "3.2px",
                         "type": "typography"
                     }
                 },
@@ -148,7 +168,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 12,
+                        "value": "12px",
                         "type": "typography"
                     },
                     "weight": {
@@ -158,6 +178,10 @@
                     "lineheight": {
                         "value": "140%",
                         "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "2.4000000000000004px",
+                        "type": "typography"
                     }
                 },
                 "small": {
@@ -166,7 +190,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 12,
+                        "value": "12px",
                         "type": "typography"
                     },
                     "weight": {
@@ -175,6 +199,10 @@
                     },
                     "lineheight": {
                         "value": "120%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "2.4000000000000004px",
                         "type": "typography"
                     }
                 }
@@ -186,7 +214,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 66,
+                        "value": "66px",
                         "type": "typography"
                     },
                     "weight": {
@@ -195,6 +223,10 @@
                     },
                     "lineheight": {
                         "value": "90%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 },
@@ -204,7 +236,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 56,
+                        "value": "56px",
                         "type": "typography"
                     },
                     "weight": {
@@ -213,6 +245,10 @@
                     },
                     "lineheight": {
                         "value": "90%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 },
@@ -222,7 +258,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 40,
+                        "value": "40px",
                         "type": "typography"
                     },
                     "weight": {
@@ -231,6 +267,10 @@
                     },
                     "lineheight": {
                         "value": "90%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 }
@@ -242,7 +282,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 32,
+                        "value": "32px",
                         "type": "typography"
                     },
                     "weight": {
@@ -251,6 +291,10 @@
                     },
                     "lineheight": {
                         "value": "90%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 },
@@ -260,7 +304,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 46,
+                        "value": "46px",
                         "type": "typography"
                     },
                     "weight": {
@@ -269,6 +313,10 @@
                     },
                     "lineheight": {
                         "value": "90%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 },
@@ -278,7 +326,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 40,
+                        "value": "40px",
                         "type": "typography"
                     },
                     "weight": {
@@ -287,6 +335,10 @@
                     },
                     "lineheight": {
                         "value": "90%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 }
@@ -298,7 +350,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 28,
+                        "value": "28px",
                         "type": "typography"
                     },
                     "weight": {
@@ -307,6 +359,10 @@
                     },
                     "lineheight": {
                         "value": "90%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 },
@@ -316,7 +372,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 36,
+                        "value": "36px",
                         "type": "typography"
                     },
                     "weight": {
@@ -325,6 +381,10 @@
                     },
                     "lineheight": {
                         "value": "90%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 },
@@ -334,7 +394,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 32,
+                        "value": "32px",
                         "type": "typography"
                     },
                     "weight": {
@@ -343,6 +403,10 @@
                     },
                     "lineheight": {
                         "value": "90%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 }
@@ -354,7 +418,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 24,
+                        "value": "24px",
                         "type": "typography"
                     },
                     "weight": {
@@ -363,6 +427,10 @@
                     },
                     "lineheight": {
                         "value": "120%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 },
@@ -372,7 +440,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 22,
+                        "value": "22px",
                         "type": "typography"
                     },
                     "weight": {
@@ -381,6 +449,10 @@
                     },
                     "lineheight": {
                         "value": "120%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 }
@@ -392,7 +464,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 16,
+                        "value": "16px",
                         "type": "typography"
                     },
                     "weight": {
@@ -401,6 +473,10 @@
                     },
                     "lineheight": {
                         "value": "150%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 },
@@ -410,7 +486,7 @@
                         "type": "typography"
                     },
                     "size": {
-                        "value": 17,
+                        "value": "17px",
                         "type": "typography"
                     },
                     "weight": {
@@ -419,6 +495,10 @@
                     },
                     "lineheight": {
                         "value": "150%",
+                        "type": "typography"
+                    },
+                    "spacing": {
+                        "value": "normal",
                         "type": "typography"
                     }
                 }
