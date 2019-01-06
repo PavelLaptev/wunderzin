@@ -26,9 +26,10 @@
         <div class="content-side__wz-logo"></div>
         <div class="content-side__main-section">
           <h1 class="content-side__main-section__header">Online magazine<br/> free UI Kit</h1>
-          <h4>123 components — 20 pages — 3 breakpoints</h4>
-          <button class="cta-btn cta-btn_primary-dark" onclick="window.location.href='https://www.figma.com/file/JNIu97dR9CPt6kTg3grNFc7n/W%C3%BBnderzin-UI-Kit?node-id=0%3A1'">Get the Kit</button>
-          <div class="figma-logo"></div>
+          <div class="content-side__main-section__btn-row">
+            <button class="cta-btn cta-btn_primary-dark" onclick="window.location.href='https://www.figma.com/file/JNIu97dR9CPt6kTg3grNFc7n/W%C3%BBnderzin-UI-Kit?node-id=0%3A1'">Get the Kit</button>
+            <div class="figma-logo"></div>
+          </div>
         </div>
         <div class="content-side__footer">
           <h4 style="margin-bottom: 12px"><a href="#" target="_blank">Design tokens with Figma</a></h4>
@@ -37,9 +38,15 @@
       </div>
       <div class="preview-side">
         <div class="preview-side__devices">
-          <div class="preview-side__iphone"></div>
-          <div class="preview-side__ipad"></div>
-          <div class="preview-side__macbook"></div>
+          <div class="preview-side__iphone">
+            <div class="preview-side__iphone__screen" id="iphone-device"></div>
+          </div>
+          <div class="preview-side__ipad">
+            <div class="preview-side__ipad__screen" id="ipad-device"></div>
+          </div>
+          <div class="preview-side__macbook">
+            <div class="preview-side__macbook__screen" id="macbook-device"></div>
+          </div>
         </div>
       </div>
     </div>

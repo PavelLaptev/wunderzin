@@ -28,6 +28,14 @@ hr {
   display: flex;
   height: 100vh;
   padding-left: 100px; }
+  @media screen and (max-width: 900px) {
+    .wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding-left: 0;
+      min-height: 1200px; } }
 
 .cta-btn {
   position: relative;
@@ -47,6 +55,9 @@ hr {
   -webkit-transition: all 0.1s;
   -o-transition: all 0.1s;
   transition: all 0.1s; }
+  @media screen and (max-width: 600px) {
+    .cta-btn {
+      width: 100%; } }
   .cta-btn_primary-dark {
     padding: 0 20px;
     background: #805be8;
@@ -71,8 +82,14 @@ hr {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  margin-top: 80px;
-  margin-bottom: 60px; }
+  margin: 80px 0 60px; }
+  @media screen and (max-width: 900px) {
+    .content-side {
+      margin: 60px 80px 20px;
+      max-width: 800px; } }
+  @media screen and (max-width: 600px) {
+    .content-side {
+      margin: 40px 40px 20px; } }
   .content-side__wz-logo {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -80,20 +97,39 @@ hr {
     width: 296px;
     height: 32px;
     background-image: url(../images/wz-logo.svg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat; }
+    @media screen and (max-width: 600px) {
+      .content-side__wz-logo {
+        width: 100%; } }
   .content-side__main-section {
     margin-bottom: 40px; }
+    @media screen and (max-width: 900px) {
+      .content-side__main-section {
+        margin-bottom: 0; } }
     .content-side__main-section__header {
       white-space: nowrap; }
+      @media screen and (max-width: 600px) {
+        .content-side__main-section__header {
+          white-space: normal; } }
+    .content-side__main-section__btn-row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
 
 .figma-logo {
-  margin-top: 36px;
+  margin-left: 20px;
   width: 40px;
   height: 40px;
   background-image: url(../images/figma-logo.svg);
   background-size: cover;
   background-repeat: no-repeat; }
+  @media screen and (max-width: 600px) {
+    .figma-logo {
+      display: none; } }
 
 .preview-side {
   display: -webkit-box;
@@ -111,10 +147,24 @@ hr {
   overflow: hidden;
   position: relative;
   margin-left: 40px; }
+  @media screen and (max-width: 600px) {
+    .preview-side {
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      margin-left: 0; } }
   .preview-side__devices {
     position: relative;
     width: 1100px;
     height: 700px; }
+    @media screen and (max-width: 900px) {
+      .preview-side__devices {
+        height: 500px; } }
+    @media screen and (max-width: 600px) {
+      .preview-side__devices {
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8); } }
   .preview-side__iphone {
     position: absolute;
     top: 280px;
@@ -125,6 +175,15 @@ hr {
     background-image: url(../images/iphone.png);
     background-size: cover;
     background-repeat: no-repeat; }
+    .preview-side__iphone__screen {
+      position: absolute;
+      top: 11px;
+      left: 14px;
+      width: 207px;
+      height: 424px;
+      background-size: 640px;
+      background-image: url(../images/iphone-sprite.png);
+      background-position: -5px -1733px; }
   .preview-side__ipad {
     position: absolute;
     top: 340px;
@@ -135,6 +194,15 @@ hr {
     background-image: url(../images/ipad.png);
     background-size: cover;
     background-repeat: no-repeat; }
+    .preview-side__ipad__screen {
+      position: absolute;
+      top: 18px;
+      left: 24px;
+      width: 500px;
+      height: 710px;
+      background-size: 1500px;
+      background-image: url(../images/ipad-sprite.png);
+      background-position: -3px -2134px; }
   .preview-side__macbook {
     position: absolute;
     top: 0;
@@ -142,9 +210,18 @@ hr {
     z-index: 1;
     width: 1050px;
     height: 640px;
-    background-image: url(../images/mackbook.png);
+    background-image: url(../images/macbook.png);
     background-size: cover;
     background-repeat: no-repeat; }
+    .preview-side__macbook__screen {
+      position: absolute;
+      top: 6px;
+      left: 76px;
+      width: 897px;
+      height: 586px;
+      background-size: 1824px;
+      background-image: url(../images/macbook-sprite.png);
+      background-position: -6px -1781px; }
 
 /**
  * Do not edit directly
